@@ -2,7 +2,7 @@
 """
 Created on Fri Oct 27 00:38:08 2017
 
-@author: Rachid
+
 """
 
 import pandas as pd
@@ -26,7 +26,7 @@ from sklearn import svm
 
 # SKIN NON SKIN 10 FOLD
 
-url = "C:\\Users\Rachid\Desktop\ML Assignment 1\datasets\SkinNonSkin.csv"
+url = "C:\\Users\Manik\Desktop\ML Assignment 1\datasets\SkinNonSkin.csv"
 names = ['B', 'G', 'R', 'class'] # B : Bleu / G : Green / R : Red / class : 1 or 2.
 #skin=SkinNonSkin
 skin = pd.read_csv(url, sep= ';', names=names)
