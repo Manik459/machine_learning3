@@ -2,7 +2,7 @@
 """
 Created on Wed Oct 25 00:58:28 2017
 
-@author: Rachid
+
 """
 import pandas as pd
 import numpy as np
@@ -21,7 +21,7 @@ from sklearn import svm
 
 # SKIN NON SKIN 70/30 
 
-url = "C:\\Users\Rachid\Desktop\ML Assignment 1\datasets\SkinNonSkin.csv"
+url = "C:\\Users\manik\Desktop\ML Assignment 1\datasets\SkinNonSkin.csv"
 names = ['B', 'G', 'R', 'class']
 #skin=SkinNonSkin
 skin = pd.read_csv(url, sep= ';', names=names)
