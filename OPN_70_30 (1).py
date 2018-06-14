@@ -2,7 +2,7 @@
 """
 Created on Wed Oct 25 01:04:46 2017
 
-@author: Rachid
+
 """
 import pandas as pd
 import numpy as np
@@ -20,7 +20,7 @@ from math import sqrt
 
 # ONLINE NEWS POPULARITY Hold out split 70/30
 
-url = "C:\\Users\Rachid\Desktop\ML Assignment 1\datasets\ONP.csv"
+url = "C:\\Users\Manik\Desktop\ML Assignment 1\datasets\ONP.csv"
 #onp=Online News Popularity
 onp = pd.read_csv(url, sep= ';')
 #Shape of our data set : Online News Popularity
